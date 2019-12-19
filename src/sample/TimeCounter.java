@@ -5,11 +5,9 @@ import javafx.concurrent.ScheduledService;
 import javafx.concurrent.Task;
 import javafx.scene.control.Label;
 
-import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.TimerTask;
 
 public class TimeCounter extends ScheduledService<Void> {
     private Label label;
